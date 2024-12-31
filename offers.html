@@ -1,0 +1,133 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+		<script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.with-hashing.iife.js" defer init></script>
+		<script type="text/javascript">
+			window.tailwind.config = {
+				darkMode: ['class'],
+				theme: {
+					extend: {
+						colors: {
+							border: 'hsl(var(--border))',
+							input: 'hsl(var(--input))',
+							ring: 'hsl(var(--ring))',
+							background: 'hsl(var(--background))',
+							foreground: 'hsl(var(--foreground))',
+							primary: {
+								DEFAULT: 'hsl(var(--primary))',
+								foreground: 'hsl(var(--primary-foreground))'
+							},
+							secondary: {
+								DEFAULT: 'hsl(var(--secondary))',
+								foreground: 'hsl(var(--secondary-foreground))'
+							},
+							destructive: {
+								DEFAULT: 'hsl(var(--destructive))',
+								foreground: 'hsl(var(--destructive-foreground))'
+							},
+							muted: {
+								DEFAULT: 'hsl(var(--muted))',
+								foreground: 'hsl(var(--muted-foreground))'
+							},
+							accent: {
+								DEFAULT: 'hsl(var(--accent))',
+								foreground: 'hsl(var(--accent-foreground))'
+							},
+							popover: {
+								DEFAULT: 'hsl(var(--popover))',
+								foreground: 'hsl(var(--popover-foreground))'
+							},
+							card: {
+								DEFAULT: 'hsl(var(--card))',
+								foreground: 'hsl(var(--card-foreground))'
+							},
+						},
+					}
+				}
+			}
+		</script>
+		<style type="text/tailwindcss">
+			@layer base {
+				:root {
+					--background: 0 0% 100%;
+--foreground: 240 10% 3.9%;
+--card: 0 0% 100%;
+--card-foreground: 240 10% 3.9%;
+--popover: 0 0% 100%;
+--popover-foreground: 240 10% 3.9%;
+--primary: 240 5.9% 10%;
+--primary-foreground: 0 0% 98%;
+--secondary: 240 4.8% 95.9%;
+--secondary-foreground: 240 5.9% 10%;
+--muted: 240 4.8% 95.9%;
+--muted-foreground: 240 3.8% 46.1%;
+--accent: 240 4.8% 95.9%;
+--accent-foreground: 240 5.9% 10%;
+--destructive: 0 84.2% 60.2%;
+--destructive-foreground: 0 0% 98%;
+--border: 240 5.9% 90%;
+--input: 240 5.9% 90%;
+--ring: 240 5.9% 10%;
+--radius: 0.5rem;
+				}
+				.dark {
+					--background: 240 10% 3.9%;
+--foreground: 0 0% 98%;
+--card: 240 10% 3.9%;
+--card-foreground: 0 0% 98%;
+--popover: 240 10% 3.9%;
+--popover-foreground: 0 0% 98%;
+--primary: 0 0% 98%;
+--primary-foreground: 240 5.9% 10%;
+--secondary: 240 3.7% 15.9%;
+--secondary-foreground: 0 0% 98%;
+--muted: 240 3.7% 15.9%;
+--muted-foreground: 240 5% 64.9%;
+--accent: 240 3.7% 15.9%;
+--accent-foreground: 0 0% 98%;
+--destructive: 0 62.8% 30.6%;
+--destructive-foreground: 0 0% 98%;
+--border: 240 3.7% 15.9%;
+--input: 240 3.7% 15.9%;
+--ring: 240 4.9% 83.9%;
+				}
+			}
+		</style>
+  </head>
+  <body>
+    
+
+<div class="min-h-screen flex items-center justify-center">
+  <div class="bg-card shadow-lg rounded-lg p-8 max-w-sm w-full">
+    <h2 class="text-2xl font-bold text-primary text-center mb-6">Special Offers</h2>
+
+    <div class="border border-primary rounded p-4 mb-4">
+      <h3 class="text-lg font-semibold text-primary mb-2">Offer 1: Family Meal Pack</h3>
+      <p class="text-primary mb-2">Enjoy a delicious family meal pack for 4 at a discounted price!</p>
+      <p class="text-primary mb-2">Includes a variety of dishes to cater to everyone's taste.</p>
+      <p class="text-primary">Order now and have a hassle-free family dinner!</p>
+    </div>
+
+    <div class="border border-primary rounded p-4 mb-4">
+      <h3 class="text-lg font-semibold text-primary mb-2">Offer 2: Weekly Subscription</h3>
+      <p class="text-primary mb-2">Subscribe to our weekly meal plan and get a free dessert with every meal!</p>
+      <p class="text-primary mb-2">Customize your meals and enjoy a variety of cuisines throughout the week.</p>
+      <p class="text-primary">Never worry about cooking again with our convenient subscription service!</p>
+    </div>
+
+    <div class="border border-primary rounded p-4">
+      <h3 class="text-lg font-semibold text-primary mb-2">Offer 3: Refer a Friend</h3>
+      <p class="text-primary mb-2">Refer a friend and both of you get a discount on your next order!</p>
+      <p class="text-primary mb-2">Share the joy of delicious meals with your friends and family.</p>
+      <p class="text-primary">Spread the word and enjoy exclusive discounts together!</p>
+    </div>
+
+    <a href="index.html" class="block text-center mt-6 text-accent">Back to Home</a>
+  </div>
+</div>
+
+
+  </body>
+</html>
